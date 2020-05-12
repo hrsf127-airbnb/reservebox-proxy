@@ -1,17 +1,28 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
-  "author": "",
-  "license": "",
+  "name": "reservebox-proxy",
+  "description": "> Project description",
+  "author": "Luke",
+  "license": "ISC",
   "engines": {
     "node": ">=6.13.0"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.0",
+    "request": "^2.88.2"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
-  }
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor.git"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrsf127-airbnb/reservebox-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hrsf127-airbnb/reservebox-proxy/issues"
+  },
+  "homepage": "https://github.com/hrsf127-airbnb/reservebox-proxy#readme"
 }
